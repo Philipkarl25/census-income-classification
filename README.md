@@ -66,7 +66,7 @@ Model  Accuracy  Precision    Recall  F1 Score   ROC-AUC
 XGBoost  0.875320   0.801272  0.642038  0.712871  0.926303
 
 ## ROC Curve Comparison
-![ROC Curve](assets/roc_curve.png)
+![ROC Curve](https://github.com/Philipkarl25/census-income-classification/blob/main/roc_curve.png)
 
 ## Future Improvements
 - Hyperparameter tuning
