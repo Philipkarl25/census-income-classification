@@ -60,10 +60,11 @@ Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
 - ROC-AUC
 
 ## Key Findings
-An XGBoost model with 88% accuracy and 0.93 AUC means:
+Best Model: XGBoost
 
-Model  Accuracy  Precision    Recall  F1 Score   ROC-AUC
-XGBoost  0.875320   0.801272  0.642038  0.712871  0.926303
+Accuracy: 87%
+
+ROC-AUC: 0.92
 
 ## ROC Curve Comparison
 ![ROC Curve](https://github.com/Philipkarl25/census-income-classification/blob/main/roc_curve.png)
