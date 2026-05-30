@@ -24,8 +24,35 @@ In this project, machine learning techniques are used to predict whether an indi
 **Task Type:** Supervised Binary Classification  
 **Class Distribution:** ~76% earn ≤$50K | ~24% earn >$50K (imbalanced)
 
+## Project Workflow
+
+1. Data Loading and Inspection
+2. Exploratory Data Analysis (EDA)
+3. Data Cleaning and Preprocessing
+4. Feature Encoding and Scaling
+5. Model Training
+6. Model Evaluation and Comparison
+7. Model Selection
+8. Conclusion and Recommendations
+
+## Repository Structure
+
+├── census_income_classification.ipynb
+├── roc_curve.png
+├── README.md
+└── requirements.txt
+
 ## Tools & Technologies
-Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+- Seaborn
+- Joblib
+- Jupyter Notebook
 
 ## Machine Learning Models Used
 - Logistic Regression
@@ -50,11 +77,27 @@ Accuracy: 87%
 
 ROC-AUC: 0.92
 
+## Key Findings
+
+- XGBoost achieved the highest predictive performance with an Accuracy of 87% and ROC-AUC of 0.92.
+- Ensemble methods (XGBoost and Random Forest) consistently outperformed individual learners.
+- Education level, age, hours worked per week, and occupation showed strong predictive influence on income classification.
+- The project demonstrates the effectiveness of boosting algorithms for structured tabular data.
+
 ## ROC Curve Comparison
 ![ROC Curve](https://github.com/Philipkarl25/census-income-classification/blob/main/roc_curve.png)
+
+## Conclusion
+
+This project successfully developed and compared seven machine learning models for income classification using the Adult Census dataset. Among all models evaluated, XGBoost achieved the best overall performance with an Accuracy of 87% and ROC-AUC of 0.92.
+
+The results demonstrate that ensemble learning techniques are highly effective for structured tabular datasets and can provide valuable insights into socioeconomic income prediction problems.
+
+Future work will focus on hyperparameter optimization, model explainability using SHAP, deployment through Streamlit, and production-ready machine learning pipelines.
 
 ## Future Improvements
 - Hyperparameter tuning
 - SHAP explainability
 - Deployment
 - Cross-validation
+
