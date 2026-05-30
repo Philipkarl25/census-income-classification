@@ -37,10 +37,17 @@ In this project, machine learning techniques are used to predict whether an indi
 
 ## Repository Structure
 
-├── census_income_classification.ipynb
-├── roc_curve.png
-├── README.md
-└── requirements.txt
+## Repository Structure
+
+```text
+census-income-classification/
+│
+├── census_income_classification.ipynb   # Main notebook containing EDA, preprocessing, model training, and evaluation
+├── roc_curve.png                        # ROC curve comparison of all classification models
+├── README.md                            # Project documentation and overview
+└── requirements.txt                     # Project dependencies
+```
+
 
 ## Tools & Technologies
 
