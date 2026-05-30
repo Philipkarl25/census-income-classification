@@ -17,43 +17,12 @@ Accurate income classification has several practical applications, including:
 
 In this project, machine learning techniques are used to predict whether an individual's annual income exceeds $50,000 based on census data. By comparing multiple classification algorithms, the project demonstrates how data-driven approaches can be applied to solve real-world predictive analytics problems while highlighting the strengths and limitations of different machine learning models.
 
-
-## Objective
-Income prediction is a high-value capability in financial services, insurance, marketing, and public policy. Organizations use income classification to:
-
-- **Target financial products** — Banks and lenders identify creditworthy 
-  customers before outreach, reducing acquisition costs by up to 40%.
-- **Design social programs** — Governments use income segmentation to 
-  allocate welfare, tax relief, and educational subsidies efficiently.
-- **Power recommendation engines** — E-commerce platforms personalize 
-  premium product recommendations based on estimated purchasing power.
-- **Detect fraud and risk** — Insurers flag applications where stated income 
-  mismatches predicted income from demographic signals.
-
-**The core business question this project answers:**
-
-> *"Given an individual's demographic and employment attributes, can we 
-> reliably predict whether their annual income exceeds $50,000 — and which 
-> features most strongly drive that prediction?"*
-
-This is a **binary classification problem**. The output is one of:
-- `≤$50K` — Below the income threshold
-- `>$50K` — Above the income threshold
-
-Accurate classification enables data-driven targeting with measurable business ROI, replacing expensive manual segmentation with scalable ML inference.
-
 ## Dataset
 **Source:** UCI Machine Learning Repository — Adult Census Income Dataset  
 **Original Source:** 1994 U.S. Census Bureau data, extracted by Barry Becker  
 **Size:** 48,842 records × 15 features  
 **Task Type:** Supervised Binary Classification  
 **Class Distribution:** ~76% earn ≤$50K | ~24% earn >$50K (imbalanced)
-
-### Why This Dataset?
-This dataset is a benchmark in income classification research, cited in 
-hundreds of academic papers and industry studies. Its mix of numerical 
-and categorical features, real-world class imbalance, and socioeconomic 
-complexity makes it an excellent testbed for production-grade ML pipelines.
 
 ## Tools & Technologies
 Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
@@ -74,7 +43,7 @@ Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
 - F1-score
 - ROC-AUC
 
-## Key Findings
+## Results
 Best Model: XGBoost
 
 Accuracy: 87%
